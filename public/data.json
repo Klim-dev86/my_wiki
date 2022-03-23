@@ -1,0 +1,21 @@
+{
+  "linux": {
+    "whoami": {
+      "default": {
+        "input": "whoami",
+        "output": "username",
+        "description": "Display currently logged username"
+      },
+      "option1": {
+        "input": "whoami --help",
+        "output": "manual",
+        "description": "Display help and exit"
+      },
+      "option2": {
+        "input": "whoami --version",
+        "output": "manual",
+        "description": "output version information and exit"
+      }
+    }
+  }
+}
